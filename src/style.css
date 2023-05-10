@@ -1,0 +1,89 @@
+@import '../node_modules/modern-normalize/modern-normalize.css';
+
+body {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 1800px;
+    margin: auto;
+    /* padding-left: 16px;
+    padding-right: 16px; */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+    justify-content: center;
+}
+
+.gallery__link {
+    display: block;
+}
+
+.gallery__item {
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.gallery-item_img {
+    width: 400px;
+    height: 225px;
+    object-fit: contain;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    gap: 16px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.end-collection-text {
+    display: none;
+}
+
+.end-collection-text.visible {
+    display: block;
+}
+
+.search-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 16px;
+
+}
+
+.search-form_input {
+    height: 24px;
+    border: 1px solid black;
+}
+
+.submit-form-button {
+    position: absolute;
+    left: 1020px;
+    border: 0;
+    background-color: transparent;
+}
